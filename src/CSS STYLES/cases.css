@@ -1,0 +1,108 @@
+.visit2{
+    background-color: #cd1073;
+}
+
+.visit1{
+    background-color: #481677;
+}
+
+.visit3{
+    background-color: #d195ff;
+}
+
+.visit{
+    transition: all 0.2s;
+    transform: scale(1);
+    
+
+    height: 44px;
+    width: 200px;
+    color: aliceblue;
+    font-weight: 300;
+    border: #63B5AE;
+    
+    margin-top: 10px;
+    
+}
+
+
+
+.visit:hover{
+    background: #3f3f3f;
+    color: white;
+}
+
+.visit:active{
+    transform: scale(1.1);
+} 
+
+.cases img{
+    width: 80%;
+    height: 80%;
+}
+
+.cases{
+    padding-top: 100px;
+}
+
+.p_cases{
+    margin-bottom: 25px;
+}
+
+.ff1{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 50px;
+    
+}
+
+.ff1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cases h3{
+    font-family: 'Bahnschrift';
+    color: black;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.active{
+    background: white;
+}
+
+.carousel-control-prev{
+    background-color: lightgray;
+    width: 35px;
+    height: 35px;
+    
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.carousel-control-next{
+    background-color: lightgray;
+    width: 35px;
+    height: 35px;
+    
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

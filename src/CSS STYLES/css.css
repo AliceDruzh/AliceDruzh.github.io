@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: black;
+    
+    position: fixed;
+    
+    z-index: 100000;
+}
+
+.logo{
+    float: left;
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+    
+    -webkit-animation: comming 2s ease;
+    -o-animation: comming 2s ease;
+    animation: comming 2s ease;
+}
+
+h2{
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    
+    width: 400;
+    font-size: 33px;
+    line-height: 30px;
+}  
+
+p{
+    font-family: 'Calibri';
+
+    font-weight: 400;
+    font-size: 17px;
+
+
+    color: black;
+ 
+    
+}
+
+button {
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 17px;
+    cursor: pointer;
+    
+    font-family: 'Franklin Gothic Medium';
+    
+}    
+
+
+
+.mySelect{
+    display: block;
+    width: 890px;
+    height: 54px;
+    background: #999;
+}
+
+
+
+li{
+    list-style-type: none;
+}
+
+
+/*.map_section{
+    background: url(../../img/map.png) center/cover no-repeat;
+    
+}  */
+
+footer{
+    height: 100px;
+    background: black;
+}
+
+footer p{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
+}
+
+
+
+
+.number1{
+    width: 300px;
+    height: 200px;
+    
+    margin-left: 250px;
+    
+    display:block;
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+hr{
+    height: 4px;
+    border: none;
+    background: #d17700;
+    width: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    opacity: 1;
+}
+
+html{
+    width: 100%;
+}
+
+.element-animation{
+    opacity: 0;
+}
+
+.element-animation.show-animation{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+
+
+
